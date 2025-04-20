@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
-use Database\Seeder\BarangSeeder; //tambahkan ini 
+use Database\Seeders\BarangSeeder as BarangSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(BarangSeeder::class);//tambahkan kode ini
+        $this->call(BarangSeeder::class);
     }
 }
+
+
+

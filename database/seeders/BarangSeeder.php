@@ -1,10 +1,10 @@
 <?php
 
-namespace Database\Seeder;
+namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeder\WithoutModelEvents;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Suport\Facades\DB; //tambahkan ini
+use Illuminate\Support\Facades\DB;
 
 class BarangSeeder extends Seeder
 {
@@ -12,8 +12,9 @@ class BarangSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void
-    {
-        DB::table('barang')->insert([ 
+  {
+
+        DB::table('barangs')->insert([ 
             [
                 'kode'=> 'B001' ,
                 'nama'=> 'Kipas Angin' ,
@@ -28,7 +29,9 @@ class BarangSeeder extends Seeder
             ],
          
         ]);
-        
-    
+  }
     }
-}
+    
+    
+       
+    
