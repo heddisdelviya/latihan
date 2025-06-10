@@ -35,6 +35,8 @@
                                 <i class="bi bi-eye"></i>
                             </a>
                             <a href="{{ route('barang.edit', $barang->id) }}" class="btn btn-warning btn-sm" title="Edit">
+
+                            <a href="{{ route('barang.edit', $barang) }}" class="btn btn-warning btn-sm" title="Edit">
                                 <i class="bi bi-pencil"></i>
                             </a>
                             <form action="{{ route('barang.destroy', $barang) }}" method="POST" class="d-inline"

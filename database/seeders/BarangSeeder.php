@@ -31,7 +31,6 @@ class BarangSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B003',
                 'nama' => 'Laptop',
                 'harga' => 4000000.00,
@@ -40,7 +39,6 @@ class BarangSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B004',
                 'nama' => 'Blender',
                 'harga' => 300000.00,
@@ -49,7 +47,6 @@ class BarangSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B005',
                 'nama' => 'Rice cooker',
                 'harga' => 2500000.00,
@@ -58,7 +55,6 @@ class BarangSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B006',
                 'nama' => 'Mesin Cuci',
                 'harga' => 2000000.00,
@@ -67,7 +63,6 @@ class BarangSeeder extends Seeder
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B007',
                 'nama' => 'Radio',
                 'harga' => 200000.00,
@@ -75,27 +70,23 @@ class BarangSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-
             [
-            'kode' => 'B008',
-            'nama' => 'Handphoe',
-            'harga' => 6500000.00,
-            'stok' => 50,
-            'created_at' => now(),
-            'updated_at' => now(),
+                'kode' => 'B008',
+                'nama' => 'Handphone',
+                'harga' => 6500000.00,
+                'stok' => 50,
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
-        
             [
-                
                 'kode' => 'B009',
-                'nama' => 'Microwafe',
+                'nama' => 'Microwave',
                 'harga' => 500000.00,
                 'stok' => 50,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                
                 'kode' => 'B010',
                 'nama' => 'Air Fryer',
                 'harga' => 3500000.00,
@@ -106,7 +97,7 @@ class BarangSeeder extends Seeder
             [
                 'kode' => 'B011',
                 'nama' => 'Setrika',
-                'harga' => 3500000.00,
+                'harga' => 350000.00,
                 'stok' => 50,
                 'created_at' => now(),
                 'updated_at' => now(),
@@ -127,7 +118,6 @@ class BarangSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            
         ]);
     }
 }
