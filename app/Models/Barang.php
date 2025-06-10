@@ -6,17 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Barang extends Model
 {
-    protected   $table = 'barang' ;
+    protected $table = 'barangs'; // perhatikan nama tabel menjadi 'barangs' karena sesuai dengan migration
 
-    protected   $fillable = [
-        'kode' ,
-        'nama' ,
-        'harga' ,
-        'stok' ,
+    protected $fillable = [
+        'kode',
+        'nama',
+        'harga',
+        'stok',
     ];
-
-    
 }
-
-
-
