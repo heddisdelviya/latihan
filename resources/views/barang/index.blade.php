@@ -2,6 +2,11 @@
 
 @section('title', 'Daftar Barang')
 
+@push('styles')
+    <!-- CSS DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+@endpush
+
 @section('content')
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1>Daftar Barang</h1>
@@ -11,7 +16,7 @@
     </div>
 
     <div class="table-responsive">
-        <table class="table table-striped table-hover">
+        <table id="barang" class="table table-striped table-hover">
             <thead class="table-dark">
                 <tr>
                     <th>No</th>
@@ -34,13 +39,11 @@
                             <a href="{{ route('barang.show', $barang) }}" class="btn btn-info btn-sm" title="Lihat">
                                 <i class="bi bi-eye"></i>
                             </a>
-                            <a href="{{ route('barang.edit', $barang->id) }}" class="btn btn-warning btn-sm" title="Edit">
-
                             <a href="{{ route('barang.edit', $barang) }}" class="btn btn-warning btn-sm" title="Edit">
                                 <i class="bi bi-pencil"></i>
                             </a>
                             <form action="{{ route('barang.destroy', $barang) }}" method="POST" class="d-inline"
-                                onsubmit="return confirm('Apakah Anda yakin ingin menghapus barang ini?')">
+                                  onsubmit="return confirm('Apakah Anda yakin ingin menghapus barang ini?')">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn btn-danger btn-sm" title="Hapus">
@@ -58,3 +61,15 @@
         </table>
     </div>
 @endsection
+
+@push('scripts')
+    <!-- jQuery dan DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#barang').DataTable();
+        });
+    </script>
+@endpush

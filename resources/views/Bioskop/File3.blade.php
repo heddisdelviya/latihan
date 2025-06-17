@@ -98,70 +98,7 @@
 </style>
 
 <section class="content">
-  <h1>🎥 BIOSKOP</h1>
-
-  <h2>🍿 HAPPY POPCORN</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>Salt Popcorn</td></tr>
-      <tr><td>Popcorn Millo Dino Saurus</td></tr>
-      <tr><td>Mix Popcorn</td></tr>
-      <tr><td>Caramel Popcorn</td></tr>
-      <tr><td>Popcorn Balado</td></tr>
-      <tr><td>Popcorn Sweet Glazed</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🍟 MAKANAN ASIK</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>French Fries</td></tr>
-      <tr><td>Sistagor</td></tr>
-      <tr><td>Mini Pangsit Goreng</td></tr>
-      <tr><td>Nacos</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🥤 FUN DRINKS</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>Ice Tea</td></tr>
-      <tr><td>Ice Lemon Tea</td></tr>
-      <tr><td>Coffee Latte</td></tr>
-      <tr><td>Mineral Water</td></tr>
-      <tr><td>Soda</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🎬 FILM</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Judul Film</th>
-      <th>Jadwal Tayang</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>JUMBO</td><td>12.10 | 14.30 | 16.30 | 18.30 | 20.30</td></tr>
-    <tr><td>JURASSIC WORLD</td><td>12.10 | 14.30 | 16.30 | 18.30 | 20.30</td></tr>
-    <tr><td>DILAN 1990</td><td>10.10 | 12.10 | 14.10 | 16.10 | 18.10</td></tr>
-    <tr><td>FROZEN 2</td><td>11.05 | 13.05 | 15.05 | 17.05 | 19.05</td></tr>
-    <tr><td>MOANA 2</td><td>11.45 | 13.45 | 15.45 | 17.45 | 19.45</td></tr>
-    <tr><td>1 KAKAK 7 PONAKAN</td><td>11.25 | 13.25 | 15.25 | 17.25 | 19.25</td></tr>
-    <tr><td>MUFASA</td><td>10.05 | 13.05 | 15.05 | 17.05 | 19.05</td></tr>
-    <tr><td>THE LITTLE MERMAID</td><td>11.45 | 13.45 | 15.45 | 17.45 | 19.45</td></tr>
-    <tr><td>MIRACLE IN CELL NO.7</td><td>12.10 | 14.30 | 16.30 | 18.30 | 20.30</td></tr>
-    <tr><td>PENGABDI SETAN</td><td>10.10 | 12.10 | 14.10 | 16.10 | 18.10</td></tr>
-    <tr><td>TAK INGIN USAI DISINI</td><td>11.45 | 13.45 | 15.45 | 17.45 | 19.45</td></tr>
-    <tr><td>SNOW WHITE</td><td>11.05 | 13.05 | 15.05 | 17.05 | 19.05</td></tr>
-  </tbody>
-</table>
-
-
-  <h2>🏢 CINEMA</h2>
+ <h2>🏢 CINEMA 🏢</h2>
   <table>
     <thead>
       <tr>

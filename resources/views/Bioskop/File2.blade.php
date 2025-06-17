@@ -98,45 +98,8 @@
 </style>
 
 <section class="content">
-  <h1>🎥 BIOSKOP</h1>
 
-  <h2>🍿 HAPPY POPCORN</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>Salt Popcorn</td></tr>
-      <tr><td>Popcorn Millo Dino Saurus</td></tr>
-      <tr><td>Mix Popcorn</td></tr>
-      <tr><td>Caramel Popcorn</td></tr>
-      <tr><td>Popcorn Balado</td></tr>
-      <tr><td>Popcorn Sweet Glazed</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🍟 MAKANAN ASIK</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>French Fries</td></tr>
-      <tr><td>Sistagor</td></tr>
-      <tr><td>Mini Pangsit Goreng</td></tr>
-      <tr><td>Nacos</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🥤 FUN DRINKS</h2>
-  <table>
-    <thead><tr><th>Menu</th></tr></thead>
-    <tbody>
-      <tr><td>Ice Tea</td></tr>
-      <tr><td>Ice Lemon Tea</td></tr>
-      <tr><td>Coffee Latte</td></tr>
-      <tr><td>Mineral Water</td></tr>
-      <tr><td>Soda</td></tr>
-    </tbody>
-  </table>
-
-  <h2>🎬 FILM</h2>
+ <h2>🎬 FILM 🎬 </h2>
 <table>
   <thead>
     <tr>
@@ -159,23 +122,5 @@
     <tr><td>SNOW WHITE</td><td>11.05 | 13.05 | 15.05 | 17.05 | 19.05</td></tr>
   </tbody>
 </table>
-
-
-  <h2>🏢 CINEMA</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Nama Cinema</th>
-        <th>Lokasi</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Cinema XXI Transmart</td><td>Jl. Soekarno-Hatta No.123, Bandung</td></tr>
-      <tr><td>CGV Paris Van Java</td><td>Paris Van Java Mall, Bandung</td></tr>
-      <tr><td>CGV Mal King</td><td>Jl.Kepatihan Bandung</td></tr>
-      <tr><td>Cinema XXI Festival Citylink</td><td>Jl. Peta Kota Bandung</td></tr>
-      <tr><td>Cinema XXI Braga Mall</td><td>Jl. Braga Kota Bandung</td></tr>
-    </tbody>
-  </table>
 </section>
 @endsection
